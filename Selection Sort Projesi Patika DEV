@@ -1,0 +1,32 @@
+[22,27,16,2,18,6] dizisinin Insertion Sort ile sıralanması:
+
+[22, 27, 16, 2, 18, 6]
+[2, 22, 27, 16, 18, 6]
+[2, 16, 22, 27, 18, 6]
+[2, 16, 22, 27, 18, 6]
+[2, 16, 18, 22, 27, 6]
+[2, 6, 16, 18, 22, 27]
+Big-O gösterimi: O(n^2)
+
+Dizi sıralandıktan sonra 18 sayısı Average case'e girer, yani aranan elemanın ortada olması durumudur.
+
+[7,3,5,8,2,9,4,15,6] dizisinin Selection Sort'a göre ilk 4 adımı:
+
+[2,3,5,8,7,9,4,15,6]
+[2,3,4,8,7,9,5,15,6]
+[2,3,4,5,7,9,8,15,6]
+[2,3,4,5,6,9,8,15,7]
+
+
+
+Dizi [7,3,5,8,2,9,4,15,6] Selection Sort algoritması ile sırlamak gerekiyor. Selection Sort algoritması, verilen dizideki en küçük elemanı bulur ve onu dizinin en başına yerleştirir. Daha sonra kalan elemanlar içinde en küçük olanı bulup onu sıralı kısımın hemen sağına yerleştirir. Bu işlem dizinin tamamı sıralanana kadar tekrarlanır.
+
+İlk adımda, 2 en küçük eleman olarak bulunup ilk sıraya yerleştirilir.
+
+Dizinin ikinci adımında, 2 elemanı dışındaki en küçük eleman 3 olarak belirlenir ve ikinci sıraya yerleştirilir.
+
+Üçüncü adımda, 3 ve 2 elemanları dışındaki en küçük eleman 4 olarak belirlenip 3. sıraya yerleştirilir.
+
+Dizinin dördüncü adımında, 4, 3 ve 2 elemanları dışındaki en küçük eleman 5 olarak belirlenip 4. sıraya yerleştirilir.
+
+Dolayısıyla ilk 4 adımdan sonra dizi [2,3,4,5,7,9,8,15,6] şeklinde sıralanmış olur.
